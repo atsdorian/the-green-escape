@@ -1,0 +1,29 @@
+header {
+    background-color: #F5F5DC;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: end
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+
+}
+
+.foot {
+width: 30%;
+}

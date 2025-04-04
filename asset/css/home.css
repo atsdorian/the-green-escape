@@ -1,0 +1,55 @@
+.logo {
+    height: 100px;
+    max-width: 100px;
+}
+
+
+.images {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero {
+    background: url("./../images/banniere.jpg") center center / contain no-repeat;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #4CAF50;
+}
+
+.hebergements {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.hebergements-cart {
+    
+    border: 2px black solid; 
+    max-width: 20%;
+    padding: 20px;
+    margin-left: 20px;
+    
+  
+}
+
+.avis {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.avis-cart {
+    justify-content: center;
+    border: 2px black solid;  
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 30%;
+    margin-left: 20px;
+}
