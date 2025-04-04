@@ -1,29 +1,74 @@
+h1 h2 h3 h4 {
+    font-family: 'Playfair Display', serif;
+   
+}
+
+ p, a {
+    color: #333333;
+ }
+
+
+
+
 header {
     background-color: #F5F5DC;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .menu {
     width: 50%;
+   
 }
 
 .menu ul {
-    list-style-type: none;
+    
     display: flex;
     justify-content: space-between;
-    align-items: end
+    align-items: end;
+    
+}
+
+.menu li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu a {
+    list-style-type: none;
+    text-decoration: none;
 }
 
 footer {
     display: flex;
     justify-content: space-around;
     padding: 20px 10px;
+    
+
 
 }
 
 .foot {
 width: 30%;
+
+}
+
+.foot li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.foot a {
+    list-style-type: none;
+    text-decoration: none;
+}
+h1 h2 h3 h4 {
+    color: #4CAF50;
+}
+
+p {
+    color: #333333;
 }
