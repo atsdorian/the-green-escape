@@ -1,38 +1,5 @@
 
 
-h1, h2, h3   {
-    color: #4CAF50;
-}
-
-
-
-
-
-
-
-body {
-   background-color: #F5F5DC;
-   padding: 0;
-   margin: 0;
-   font-family: 'poppins', sans-serif;
-}
-
-
-.logo {
-   height: 100px;
-   max-width: 100px;
-}
-
-
-.images {
-   height: 150px;
-   width: 100%;
-   object-fit: cover;
-}
-
-
-
-
 .hebergements {
    display: flex;
    flex-direction: row;
