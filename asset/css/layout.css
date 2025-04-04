@@ -1,14 +1,32 @@
-h1 h2 h3 h4 {
+h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
-   
+     color: #4CAF50;
+
 }
 
- p, a {
-    color: #333333;
+body {
+    background-color: #F5F5DC;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
  }
+ 
+p, a {
+    color: #333333;
+}
 
 
+.logo {
+    height: 100px;
+    max-width: 100px;
+}
 
+
+.images {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
 
 header {
     background-color: #F5F5DC;
@@ -16,20 +34,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .menu {
     width: 50%;
-   
+
 }
 
 .menu ul {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: end;
-    
+
 }
 
 .menu li {
@@ -46,13 +64,13 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 20px 10px;
-    
+
 
 
 }
 
 .foot {
-width: 30%;
+    width: 30%;
 
 }
 
@@ -64,11 +82,4 @@ width: 30%;
 .foot a {
     list-style-type: none;
     text-decoration: none;
-}
-h1 h2 h3 h4 {
-    color: #4CAF50;
-}
-
-p {
-    color: #333333;
 }
