@@ -1,19 +1,39 @@
-
-
 .hebergements {
    display: flex;
    flex-direction: row;
 }
 
 
+h1,
+h2,
+h3,
+h4 {
+   font-family: 'Playfair Display', serif;
+   color: #4CAF50;
+
+}
+
+body {
+   background-color: #F5F5DC;
+   padding: 0;
+   margin: 0;
+   font-family: 'poppins', sans-serif;
+}
+
+p,
+a,
+li {
+   color: #333333;
+}
+
 .hebergements-cart {
-   
-   box-shadow:  0 2px 5px rgba(15, 15, 15, 0.5) ;
+
+   box-shadow: 0 2px 5px rgba(15, 15, 15, 0.5);
    max-width: 20%;
    padding: 20px;
    margin-left: 20px;
-   
- 
+
+
 }
 
 
@@ -21,12 +41,12 @@ button {
    background-color: #4CAF50;
    border-radius: 6px;
    padding: 10px 20px;
-   
+
 
 }
 
 button:hover {
-   
+
    transform: translateY(-2px);
-   box-shadow:  0 2px 5px rgba(15, 15, 15, 0.5) ;
+   box-shadow: 0 2px 5px rgba(15, 15, 15, 0.5);
 }

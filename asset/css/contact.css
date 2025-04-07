@@ -1,6 +1,36 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: #4CAF50;
+
+}
+
+body {
+    background-color: #F5F5DC;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+p,
+a,
+li {
+    color: #333333;
+}
+
+
 .formulaire-contact {
+
     border: 2px black solid;
-     border-radius: 3px;
-     padding: 5px;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+.form-contact {
+    padding: 5px;    
 }
 
