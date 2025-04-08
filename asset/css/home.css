@@ -10,7 +10,7 @@ h4 {
 body {
     background-color: #F5F5DC;
     padding: 0;
-    margin: 0;
+    margin: 10px;
     font-family: 'poppins', sans-serif;
 }
 
@@ -43,6 +43,7 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 20%);
+    
 
 }
 
@@ -55,11 +56,14 @@ li {
 .hebergements-cart {
 
     box-shadow: 0 2px 5px rgba(15, 15, 15, 0.5);
-    max-width: 20%;
     padding: 20px;
     margin-left: 20px;
+    text-align: center;
+}
 
-
+.images {
+    height: 150px;
+    width: 100%;
 }
 
 .avis {
@@ -73,7 +77,7 @@ li {
     justify-content: center;
     box-shadow: 0 2px 5px rgba(15, 15, 15, 0.5);
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     max-width: 30%;
     margin-left: 20px;
 }
@@ -81,7 +85,6 @@ li {
 .button {
     background-color: #4CAF50;
     border: 2px solid black;
-    border-radius: 6px;
     padding: 5px 15px;
     text-decoration: none;
 
@@ -93,16 +96,17 @@ li {
 
 }
 
-/* @media screen and (min-width:1024px) and (max-width: 1440px) {
+@media screen and (max-width:1098px) 
+{
+h1 {
+    width: auto;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
 
-
-} 
-
-  
-@media screen and (min-width:769px) and (max-width: 1024px) {
+}    
     
-} */
-
+}
 
 
 @media screen and (max-width:974px) {
@@ -114,5 +118,22 @@ li {
  .hebergements-cart {
     width: 90%;
     margin-bottom: 20px;
+   text-align: center;
+ }
+
+ .images {
+    height: 350px;
+    width: 50%;
+
+
  }
 }
+
+@media screen and (max-width:786px) {
+    .hero img {
+        width:auto;
+        
+    }
+
+}
+
