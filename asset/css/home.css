@@ -1,3 +1,4 @@
+
 h1,
 h2,
 h3,
@@ -109,7 +110,7 @@ h1 {
 }
 
 
-@media screen and (max-width:974px) {
+@media screen and (max-width:994px) {
  .hebergements {
     flex-direction: column;
     align-items: center;
